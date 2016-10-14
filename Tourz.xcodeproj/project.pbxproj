@@ -7,14 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0DA19D1DB191FE00B74835 /* FindToursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1931DB191FE00B74835 /* FindToursViewController.m */; };
+		3D0DA19E1DB191FE00B74835 /* MyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1951DB191FE00B74835 /* MyExtension.m */; };
+		3D0DA19F1DB191FE00B74835 /* TourMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1971DB191FE00B74835 /* TourMapViewController.m */; };
+		3D0DA1A01DB191FE00B74835 /* TourListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1991DB191FE00B74835 /* TourListViewController.m */; };
+		3D0DA1A11DB191FE00B74835 /* TourDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA19B1DB191FE00B74835 /* TourDetailViewController.m */; };
+		3D0DA1AE1DB1927C00B74835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1A51DB1927C00B74835 /* Main.storyboard */; };
+		3D0DA1AF1DB1927C00B74835 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1A61DB1927C00B74835 /* CategoryTableViewCell.xib */; };
+		3D0DA1B01DB1927C00B74835 /* POIDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1A71DB1927C00B74835 /* POIDetailTableViewCell.xib */; };
+		3D0DA1B11DB1927C00B74835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1AB1DB1927C00B74835 /* LaunchScreen.storyboard */; };
+		3D0DA1B21DB1927C00B74835 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1AC1DB1927C00B74835 /* LocationTableViewCell.xib */; };
+		3D0DA1BB1DB192BE00B74835 /* SearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1B41DB192BE00B74835 /* SearchService.m */; };
+		3D0DA1BC1DB192BE00B74835 /* FourSquareService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1B61DB192BE00B74835 /* FourSquareService.m */; };
+		3D0DA1BD1DB192BE00B74835 /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1B81DB192BE00B74835 /* Tour.m */; };
+		3D0DA1BE1DB192BE00B74835 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1BA1DB192BE00B74835 /* Location.m */; };
+		3D0DA1C11DB192E600B74835 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C01DB192E600B74835 /* AppDelegate.m */; };
+		3D0DA1CE1DB1930E00B74835 /* seattlesunset copy700.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C21DB1930E00B74835 /* seattlesunset copy700.jpg */; };
+		3D0DA1CF1DB1930E00B74835 /* Walkabout-Tours29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C31DB1930E00B74835 /* Walkabout-Tours29.png */; };
+		3D0DA1D01DB1930E00B74835 /* Walkabout-Tours40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C41DB1930E00B74835 /* Walkabout-Tours40.png */; };
+		3D0DA1D11DB1930E00B74835 /* Walkabout-Tours58.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C51DB1930E00B74835 /* Walkabout-Tours58.png */; };
+		3D0DA1D21DB1930E00B74835 /* Walkabout-Tours60.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C61DB1930E00B74835 /* Walkabout-Tours60.png */; };
+		3D0DA1D31DB1930E00B74835 /* Walkabout-Tours76.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C71DB1930E00B74835 /* Walkabout-Tours76.png */; };
+		3D0DA1D41DB1930E00B74835 /* Walkabout-Tours80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C81DB1930E00B74835 /* Walkabout-Tours80.png */; };
+		3D0DA1D51DB1930E00B74835 /* Walkabout-Tours87.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1C91DB1930E00B74835 /* Walkabout-Tours87.png */; };
+		3D0DA1D61DB1930E00B74835 /* Walkabout-Tours152.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1CA1DB1930E00B74835 /* Walkabout-Tours152.png */; };
+		3D0DA1D71DB1930E00B74835 /* goldengatebridge copy700.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1CB1DB1930E00B74835 /* goldengatebridge copy700.jpg */; };
+		3D0DA1D81DB1930E00B74835 /* sandfootprints 700h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1CC1DB1930E00B74835 /* sandfootprints 700h.jpg */; };
+		3D0DA1D91DB1930E00B74835 /* newyorkpin copy700h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA1CD1DB1930E00B74835 /* newyorkpin copy700h.jpg */; };
+		3D0DA1EE1DB1936500B74835 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1DA1DB1936500B74835 /* Bolts.framework */; };
+		3D0DA1EF1DB1936500B74835 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1DB1DB1936500B74835 /* Parse.framework */; };
+		3D0DA1F01DB1936600B74835 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1DC1DB1936500B74835 /* ParseFacebookUtils.framework */; };
+		3D0DA1F11DB1936600B74835 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1DD1DB1936500B74835 /* ParseFacebookUtilsV4.framework */; };
+		3D0DA1F21DB1936600B74835 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1DE1DB1936500B74835 /* ParseTwitterUtils.framework */; };
+		3D0DA1F31DB1936600B74835 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1DF1DB1936500B74835 /* ParseUI.framework */; };
+		3D0DA1F41DB1936600B74835 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E01DB1936500B74835 /* libsqlite3.0.tbd */; };
+		3D0DA1F51DB1936600B74835 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E11DB1936500B74835 /* libz.1.1.3.tbd */; };
+		3D0DA1F61DB1936600B74835 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E21DB1936500B74835 /* Fabric.framework */; };
+		3D0DA1F71DB1936600B74835 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E31DB1936500B74835 /* Crashlytics.framework */; };
+		3D0DA1F81DB1936600B74835 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E41DB1936500B74835 /* SystemConfiguration.framework */; };
+		3D0DA1F91DB1936600B74835 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E51DB1936500B74835 /* StoreKit.framework */; };
+		3D0DA1FA1DB1936600B74835 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E61DB1936500B74835 /* Security.framework */; };
+		3D0DA1FB1DB1936600B74835 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E71DB1936500B74835 /* QuartzCore.framework */; };
+		3D0DA1FC1DB1936600B74835 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E81DB1936500B74835 /* CoreLocation.framework */; };
+		3D0DA1FD1DB1936600B74835 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1E91DB1936500B74835 /* MapKit.framework */; };
+		3D0DA1FE1DB1936600B74835 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1EA1DB1936500B74835 /* CoreGraphics.framework */; };
+		3D0DA1FF1DB1936600B74835 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1EB1DB1936500B74835 /* CFNetwork.framework */; };
+		3D0DA2001DB1936600B74835 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA1EC1DB1936500B74835 /* AudioToolbox.framework */; };
+		3D0DA20D1DB193C900B74835 /* ParseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2021DB193C900B74835 /* ParseService.m */; };
+		3D0DA20E1DB193C900B74835 /* ParseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2041DB193C900B74835 /* ParseLoginViewController.m */; };
+		3D0DA20F1DB193C900B74835 /* ParseSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2061DB193C900B74835 /* ParseSignUpViewController.m */; };
+		3D0DA2101DB193C900B74835 /* ParseResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2081DB193C900B74835 /* ParseResetPasswordViewController.m */; };
+		3D0DA2111DB193C900B74835 /* TourSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA20A1DB193C900B74835 /* TourSelectionViewController.m */; };
+		3D0DA2121DB193C900B74835 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA20C1DB193C900B74835 /* CustomAnnotation.m */; };
+		3D0DA21B1DB193F900B74835 /* CreateTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2151DB193F900B74835 /* CreateTourViewController.m */; };
+		3D0DA21C1DB193F900B74835 /* CreateTourDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2171DB193F900B74835 /* CreateTourDetailViewController.m */; };
+		3D0DA21D1DB193F900B74835 /* CategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2191DB193F900B74835 /* CategoryTableViewCell.m */; };
+		3D0DA2221DB1942600B74835 /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA21F1DB1942600B74835 /* LocationTableViewCell.m */; };
+		3D0DA2231DB1942600B74835 /* POIDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2211DB1942600B74835 /* POIDetailTableViewCell.m */; };
 		3D2D018D1DB18F6B00A550FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D018C1DB18F6B00A550FA /* main.m */; };
-		3D2D01901DB18F6B00A550FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D018F1DB18F6B00A550FA /* AppDelegate.m */; };
-		3D2D01931DB18F6B00A550FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D01921DB18F6B00A550FA /* ViewController.m */; };
-		3D2D01961DB18F6B00A550FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D01941DB18F6B00A550FA /* Main.storyboard */; };
 		3D2D01981DB18F6B00A550FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D01971DB18F6B00A550FA /* Assets.xcassets */; };
-		3D2D019B1DB18F6B00A550FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D01991DB18F6B00A550FA /* LaunchScreen.storyboard */; };
 		3D2D01A61DB18F6B00A550FA /* TourzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D01A51DB18F6B00A550FA /* TourzTests.m */; };
 		3D2D01B11DB18F6C00A550FA /* TourzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D01B01DB18F6C00A550FA /* TourzUITests.m */; };
+		3D2D01C31DB1900400A550FA /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D01C21DB1900400A550FA /* VideoPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +89,91 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0DA1921DB191FE00B74835 /* FindToursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindToursViewController.h; sourceTree = "<group>"; };
+		3D0DA1931DB191FE00B74835 /* FindToursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindToursViewController.m; sourceTree = "<group>"; };
+		3D0DA1941DB191FE00B74835 /* MyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyExtension.h; sourceTree = "<group>"; };
+		3D0DA1951DB191FE00B74835 /* MyExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyExtension.m; sourceTree = "<group>"; };
+		3D0DA1961DB191FE00B74835 /* TourMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourMapViewController.h; sourceTree = "<group>"; };
+		3D0DA1971DB191FE00B74835 /* TourMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourMapViewController.m; sourceTree = "<group>"; };
+		3D0DA1981DB191FE00B74835 /* TourListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourListViewController.h; sourceTree = "<group>"; };
+		3D0DA1991DB191FE00B74835 /* TourListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourListViewController.m; sourceTree = "<group>"; };
+		3D0DA19A1DB191FE00B74835 /* TourDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourDetailViewController.h; sourceTree = "<group>"; };
+		3D0DA19B1DB191FE00B74835 /* TourDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourDetailViewController.m; sourceTree = "<group>"; };
+		3D0DA1A21DB1927C00B74835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D0DA1A31DB1927C00B74835 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
+		3D0DA1A41DB1927C00B74835 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		3D0DA1A61DB1927C00B74835 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoryTableViewCell.xib; path = ../../WalkingTour/CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		3D0DA1A71DB1927C00B74835 /* POIDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = POIDetailTableViewCell.xib; path = ../../WalkingTour/POIDetailTableViewCell.xib; sourceTree = "<group>"; };
+		3D0DA1A81DB1927C00B74835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D0DA1A91DB1927C00B74835 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3D0DA1AA1DB1927C00B74835 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3D0DA1AC1DB1927C00B74835 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LocationTableViewCell.xib; path = ../../WalkingTour/LocationTableViewCell.xib; sourceTree = "<group>"; };
+		3D0DA1B31DB192BE00B74835 /* SearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchService.h; sourceTree = "<group>"; };
+		3D0DA1B41DB192BE00B74835 /* SearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchService.m; sourceTree = "<group>"; };
+		3D0DA1B51DB192BE00B74835 /* FourSquareService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSquareService.h; sourceTree = "<group>"; };
+		3D0DA1B61DB192BE00B74835 /* FourSquareService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareService.m; sourceTree = "<group>"; };
+		3D0DA1B71DB192BE00B74835 /* Tour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tour.h; sourceTree = "<group>"; };
+		3D0DA1B81DB192BE00B74835 /* Tour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tour.m; sourceTree = "<group>"; };
+		3D0DA1B91DB192BE00B74835 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		3D0DA1BA1DB192BE00B74835 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		3D0DA1BF1DB192DF00B74835 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D0DA1C01DB192E600B74835 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D0DA1C21DB1930E00B74835 /* seattlesunset copy700.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "seattlesunset copy700.jpg"; sourceTree = "<group>"; };
+		3D0DA1C31DB1930E00B74835 /* Walkabout-Tours29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walkabout-Tours29.png"; sourceTree = "<group>"; };
+		3D0DA1C41DB1930E00B74835 /* Walkabout-Tours40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walkabout-Tours40.png"; sourceTree = "<group>"; };
+		3D0DA1C51DB1930E00B74835 /* Walkabout-Tours58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walkabout-Tours58.png"; sourceTree = "<group>"; };
+		3D0DA1C61DB1930E00B74835 /* Walkabout-Tours60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walkabout-Tours60.png"; sourceTree = "<group>"; };
+		3D0DA1C71DB1930E00B74835 /* Walkabout-Tours76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walkabout-Tours76.png"; sourceTree = "<group>"; };
+		3D0DA1C81DB1930E00B74835 /* Walkabout-Tours80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walkabout-Tours80.png"; sourceTree = "<group>"; };
+		3D0DA1C91DB1930E00B74835 /* Walkabout-Tours87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walkabout-Tours87.png"; sourceTree = "<group>"; };
+		3D0DA1CA1DB1930E00B74835 /* Walkabout-Tours152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Walkabout-Tours152.png"; sourceTree = "<group>"; };
+		3D0DA1CB1DB1930E00B74835 /* goldengatebridge copy700.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "goldengatebridge copy700.jpg"; sourceTree = "<group>"; };
+		3D0DA1CC1DB1930E00B74835 /* sandfootprints 700h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sandfootprints 700h.jpg"; sourceTree = "<group>"; };
+		3D0DA1CD1DB1930E00B74835 /* newyorkpin copy700h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "newyorkpin copy700h.jpg"; sourceTree = "<group>"; };
+		3D0DA1DA1DB1936500B74835 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3D0DA1DB1DB1936500B74835 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3D0DA1DC1DB1936500B74835 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		3D0DA1DD1DB1936500B74835 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		3D0DA1DE1DB1936500B74835 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		3D0DA1DF1DB1936500B74835 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		3D0DA1E01DB1936500B74835 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3D0DA1E11DB1936500B74835 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		3D0DA1E21DB1936500B74835 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		3D0DA1E31DB1936500B74835 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		3D0DA1E41DB1936500B74835 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3D0DA1E51DB1936500B74835 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3D0DA1E61DB1936500B74835 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D0DA1E71DB1936500B74835 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D0DA1E81DB1936500B74835 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D0DA1E91DB1936500B74835 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D0DA1EA1DB1936500B74835 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D0DA1EB1DB1936500B74835 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3D0DA1EC1DB1936500B74835 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D0DA2011DB193C900B74835 /* ParseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseService.h; sourceTree = "<group>"; };
+		3D0DA2021DB193C900B74835 /* ParseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseService.m; sourceTree = "<group>"; };
+		3D0DA2031DB193C900B74835 /* ParseLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseLoginViewController.h; sourceTree = "<group>"; };
+		3D0DA2041DB193C900B74835 /* ParseLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseLoginViewController.m; sourceTree = "<group>"; };
+		3D0DA2051DB193C900B74835 /* ParseSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseSignUpViewController.h; sourceTree = "<group>"; };
+		3D0DA2061DB193C900B74835 /* ParseSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseSignUpViewController.m; sourceTree = "<group>"; };
+		3D0DA2071DB193C900B74835 /* ParseResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseResetPasswordViewController.h; sourceTree = "<group>"; };
+		3D0DA2081DB193C900B74835 /* ParseResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseResetPasswordViewController.m; sourceTree = "<group>"; };
+		3D0DA2091DB193C900B74835 /* TourSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourSelectionViewController.h; sourceTree = "<group>"; };
+		3D0DA20A1DB193C900B74835 /* TourSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourSelectionViewController.m; sourceTree = "<group>"; };
+		3D0DA20B1DB193C900B74835 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		3D0DA20C1DB193C900B74835 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		3D0DA2141DB193F900B74835 /* CreateTourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateTourViewController.h; path = WalkingTours/CreateTourViewController.h; sourceTree = "<group>"; };
+		3D0DA2151DB193F900B74835 /* CreateTourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateTourViewController.m; path = WalkingTours/CreateTourViewController.m; sourceTree = "<group>"; };
+		3D0DA2161DB193F900B74835 /* CreateTourDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTourDetailViewController.h; sourceTree = "<group>"; };
+		3D0DA2171DB193F900B74835 /* CreateTourDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTourDetailViewController.m; sourceTree = "<group>"; };
+		3D0DA2181DB193F900B74835 /* CategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewCell.h; sourceTree = "<group>"; };
+		3D0DA2191DB193F900B74835 /* CategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewCell.m; sourceTree = "<group>"; };
+		3D0DA21E1DB1942600B74835 /* LocationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewCell.h; sourceTree = "<group>"; };
+		3D0DA21F1DB1942600B74835 /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewCell.m; sourceTree = "<group>"; };
+		3D0DA2201DB1942600B74835 /* POIDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIDetailTableViewCell.h; sourceTree = "<group>"; };
+		3D0DA2211DB1942600B74835 /* POIDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIDetailTableViewCell.m; sourceTree = "<group>"; };
 		3D2D01881DB18F6B00A550FA /* Tourz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2D018C1DB18F6B00A550FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3D2D018E1DB18F6B00A550FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3D2D018F1DB18F6B00A550FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D2D01911DB18F6B00A550FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D2D01921DB18F6B00A550FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3D2D01951DB18F6B00A550FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D2D01971DB18F6B00A550FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D2D019A1DB18F6B00A550FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D2D019C1DB18F6B00A550FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D2D01A11DB18F6B00A550FA /* TourzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2D01A51DB18F6B00A550FA /* TourzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TourzTests.m; sourceTree = "<group>"; };
@@ -51,6 +181,8 @@
 		3D2D01AC1DB18F6C00A550FA /* TourzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2D01B01DB18F6C00A550FA /* TourzUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TourzUITests.m; sourceTree = "<group>"; };
 		3D2D01B21DB18F6C00A550FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2D01C11DB18FFE00A550FA /* VideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayerView.h; sourceTree = "<group>"; };
+		3D2D01C21DB1900400A550FA /* VideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +190,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0DA1FF1DB1936600B74835 /* CFNetwork.framework in Frameworks */,
+				3D0DA1F31DB1936600B74835 /* ParseUI.framework in Frameworks */,
+				3D0DA1EF1DB1936500B74835 /* Parse.framework in Frameworks */,
+				3D0DA1FD1DB1936600B74835 /* MapKit.framework in Frameworks */,
+				3D0DA1FB1DB1936600B74835 /* QuartzCore.framework in Frameworks */,
+				3D0DA1FE1DB1936600B74835 /* CoreGraphics.framework in Frameworks */,
+				3D0DA1EE1DB1936500B74835 /* Bolts.framework in Frameworks */,
+				3D0DA1F91DB1936600B74835 /* StoreKit.framework in Frameworks */,
+				3D0DA1F11DB1936600B74835 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				3D0DA1FC1DB1936600B74835 /* CoreLocation.framework in Frameworks */,
+				3D0DA1FA1DB1936600B74835 /* Security.framework in Frameworks */,
+				3D0DA1F01DB1936600B74835 /* ParseFacebookUtils.framework in Frameworks */,
+				3D0DA1F61DB1936600B74835 /* Fabric.framework in Frameworks */,
+				3D0DA1F81DB1936600B74835 /* SystemConfiguration.framework in Frameworks */,
+				3D0DA1F71DB1936600B74835 /* Crashlytics.framework in Frameworks */,
+				3D0DA1F21DB1936600B74835 /* ParseTwitterUtils.framework in Frameworks */,
+				3D0DA1F51DB1936600B74835 /* libz.1.1.3.tbd in Frameworks */,
+				3D0DA1F41DB1936600B74835 /* libsqlite3.0.tbd in Frameworks */,
+				3D0DA2001DB1936600B74835 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +229,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0DA19C1DB191FE00B74835 /* Tours */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DA1921DB191FE00B74835 /* FindToursViewController.h */,
+				3D0DA1931DB191FE00B74835 /* FindToursViewController.m */,
+				3D0DA1941DB191FE00B74835 /* MyExtension.h */,
+				3D0DA1951DB191FE00B74835 /* MyExtension.m */,
+				3D0DA1961DB191FE00B74835 /* TourMapViewController.h */,
+				3D0DA1971DB191FE00B74835 /* TourMapViewController.m */,
+				3D0DA1981DB191FE00B74835 /* TourListViewController.h */,
+				3D0DA1991DB191FE00B74835 /* TourListViewController.m */,
+				3D0DA19A1DB191FE00B74835 /* TourDetailViewController.h */,
+				3D0DA19B1DB191FE00B74835 /* TourDetailViewController.m */,
+			);
+			name = Tours;
+			path = ../../WalkingTour;
+			sourceTree = "<group>";
+		};
+		3D0DA1ED1DB1936500B74835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DA1DA1DB1936500B74835 /* Bolts.framework */,
+				3D0DA1DB1DB1936500B74835 /* Parse.framework */,
+				3D0DA1DC1DB1936500B74835 /* ParseFacebookUtils.framework */,
+				3D0DA1DD1DB1936500B74835 /* ParseFacebookUtilsV4.framework */,
+				3D0DA1DE1DB1936500B74835 /* ParseTwitterUtils.framework */,
+				3D0DA1DF1DB1936500B74835 /* ParseUI.framework */,
+				3D0DA1E01DB1936500B74835 /* libsqlite3.0.tbd */,
+				3D0DA1E11DB1936500B74835 /* libz.1.1.3.tbd */,
+				3D0DA1E21DB1936500B74835 /* Fabric.framework */,
+				3D0DA1E31DB1936500B74835 /* Crashlytics.framework */,
+				3D0DA1E41DB1936500B74835 /* SystemConfiguration.framework */,
+				3D0DA1E51DB1936500B74835 /* StoreKit.framework */,
+				3D0DA1E61DB1936500B74835 /* Security.framework */,
+				3D0DA1E71DB1936500B74835 /* QuartzCore.framework */,
+				3D0DA1E81DB1936500B74835 /* CoreLocation.framework */,
+				3D0DA1E91DB1936500B74835 /* MapKit.framework */,
+				3D0DA1EA1DB1936500B74835 /* CoreGraphics.framework */,
+				3D0DA1EB1DB1936500B74835 /* CFNetwork.framework */,
+				3D0DA1EC1DB1936500B74835 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			path = ../WalkingTour;
+			sourceTree = "<group>";
+		};
+		3D0DA2131DB193CF00B74835 /* PARSE */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DA2011DB193C900B74835 /* ParseService.h */,
+				3D0DA2021DB193C900B74835 /* ParseService.m */,
+				3D0DA2031DB193C900B74835 /* ParseLoginViewController.h */,
+				3D0DA2041DB193C900B74835 /* ParseLoginViewController.m */,
+				3D0DA2051DB193C900B74835 /* ParseSignUpViewController.h */,
+				3D0DA2061DB193C900B74835 /* ParseSignUpViewController.m */,
+				3D0DA2071DB193C900B74835 /* ParseResetPasswordViewController.h */,
+				3D0DA2081DB193C900B74835 /* ParseResetPasswordViewController.m */,
+				3D0DA2091DB193C900B74835 /* TourSelectionViewController.h */,
+				3D0DA20A1DB193C900B74835 /* TourSelectionViewController.m */,
+				3D0DA20B1DB193C900B74835 /* CustomAnnotation.h */,
+				3D0DA20C1DB193C900B74835 /* CustomAnnotation.m */,
+				3D0DA1BF1DB192DF00B74835 /* AppDelegate.h */,
+				3D0DA1C01DB192E600B74835 /* AppDelegate.m */,
+			);
+			name = PARSE;
+			sourceTree = "<group>";
+		};
+		3D0DA21A1DB193F900B74835 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DA2141DB193F900B74835 /* CreateTourViewController.h */,
+				3D0DA2151DB193F900B74835 /* CreateTourViewController.m */,
+				3D0DA2161DB193F900B74835 /* CreateTourDetailViewController.h */,
+				3D0DA2171DB193F900B74835 /* CreateTourDetailViewController.m */,
+				3D0DA2181DB193F900B74835 /* CategoryTableViewCell.h */,
+				3D0DA2191DB193F900B74835 /* CategoryTableViewCell.m */,
+			);
+			name = Create;
+			path = ../../WalkingTour;
+			sourceTree = "<group>";
+		};
 		3D2D017F1DB18F6B00A550FA = {
 			isa = PBXGroup;
 			children = (
+				3D0DA2131DB193CF00B74835 /* PARSE */,
 				3D2D018A1DB18F6B00A550FA /* Tourz */,
 				3D2D01A41DB18F6B00A550FA /* TourzTests */,
 				3D2D01AF1DB18F6C00A550FA /* TourzUITests */,
+				3D2D018B1DB18F6B00A550FA /* Supporting Files */,
+				3D0DA1ED1DB1936500B74835 /* Frameworks */,
 				3D2D01891DB18F6B00A550FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,15 +335,13 @@
 		3D2D018A1DB18F6B00A550FA /* Tourz */ = {
 			isa = PBXGroup;
 			children = (
-				3D2D018E1DB18F6B00A550FA /* AppDelegate.h */,
-				3D2D018F1DB18F6B00A550FA /* AppDelegate.m */,
-				3D2D01911DB18F6B00A550FA /* ViewController.h */,
-				3D2D01921DB18F6B00A550FA /* ViewController.m */,
-				3D2D01941DB18F6B00A550FA /* Main.storyboard */,
+				3D2D01C11DB18FFE00A550FA /* VideoPlayerView.h */,
+				3D2D01C21DB1900400A550FA /* VideoPlayerView.m */,
+				3D2D01BF1DB18FCF00A550FA /* VIEWS */,
+				3D2D01C01DB18FEA00A550FA /* MODALS */,
+				3D2D01BE1DB18FC300A550FA /* CONTROLLER */,
 				3D2D01971DB18F6B00A550FA /* Assets.xcassets */,
-				3D2D01991DB18F6B00A550FA /* LaunchScreen.storyboard */,
 				3D2D019C1DB18F6B00A550FA /* Info.plist */,
-				3D2D018B1DB18F6B00A550FA /* Supporting Files */,
 			);
 			path = Tourz;
 			sourceTree = "<group>";
@@ -117,9 +349,22 @@
 		3D2D018B1DB18F6B00A550FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D0DA1C21DB1930E00B74835 /* seattlesunset copy700.jpg */,
+				3D0DA1C31DB1930E00B74835 /* Walkabout-Tours29.png */,
+				3D0DA1C41DB1930E00B74835 /* Walkabout-Tours40.png */,
+				3D0DA1C51DB1930E00B74835 /* Walkabout-Tours58.png */,
+				3D0DA1C61DB1930E00B74835 /* Walkabout-Tours60.png */,
+				3D0DA1C71DB1930E00B74835 /* Walkabout-Tours76.png */,
+				3D0DA1C81DB1930E00B74835 /* Walkabout-Tours80.png */,
+				3D0DA1C91DB1930E00B74835 /* Walkabout-Tours87.png */,
+				3D0DA1CA1DB1930E00B74835 /* Walkabout-Tours152.png */,
+				3D0DA1CB1DB1930E00B74835 /* goldengatebridge copy700.jpg */,
+				3D0DA1CC1DB1930E00B74835 /* sandfootprints 700h.jpg */,
+				3D0DA1CD1DB1930E00B74835 /* newyorkpin copy700h.jpg */,
 				3D2D018C1DB18F6B00A550FA /* main.m */,
 			);
 			name = "Supporting Files";
+			path = Tourz;
 			sourceTree = "<group>";
 		};
 		3D2D01A41DB18F6B00A550FA /* TourzTests */ = {
@@ -138,6 +383,46 @@
 				3D2D01B21DB18F6C00A550FA /* Info.plist */,
 			);
 			path = TourzUITests;
+			sourceTree = "<group>";
+		};
+		3D2D01BE1DB18FC300A550FA /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DA21A1DB193F900B74835 /* Create */,
+				3D0DA19C1DB191FE00B74835 /* Tours */,
+			);
+			name = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		3D2D01BF1DB18FCF00A550FA /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DA1A51DB1927C00B74835 /* Main.storyboard */,
+				3D0DA1A61DB1927C00B74835 /* CategoryTableViewCell.xib */,
+				3D0DA1A71DB1927C00B74835 /* POIDetailTableViewCell.xib */,
+				3D0DA1AB1DB1927C00B74835 /* LaunchScreen.storyboard */,
+				3D0DA1AC1DB1927C00B74835 /* LocationTableViewCell.xib */,
+				3D0DA21E1DB1942600B74835 /* LocationTableViewCell.h */,
+				3D0DA21F1DB1942600B74835 /* LocationTableViewCell.m */,
+				3D0DA2201DB1942600B74835 /* POIDetailTableViewCell.h */,
+				3D0DA2211DB1942600B74835 /* POIDetailTableViewCell.m */,
+			);
+			name = VIEWS;
+			sourceTree = "<group>";
+		};
+		3D2D01C01DB18FEA00A550FA /* MODALS */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DA1B31DB192BE00B74835 /* SearchService.h */,
+				3D0DA1B41DB192BE00B74835 /* SearchService.m */,
+				3D0DA1B51DB192BE00B74835 /* FourSquareService.h */,
+				3D0DA1B61DB192BE00B74835 /* FourSquareService.m */,
+				3D0DA1B71DB192BE00B74835 /* Tour.h */,
+				3D0DA1B81DB192BE00B74835 /* Tour.m */,
+				3D0DA1B91DB192BE00B74835 /* Location.h */,
+				3D0DA1BA1DB192BE00B74835 /* Location.m */,
+			);
+			name = MODALS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +534,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2D019B1DB18F6B00A550FA /* LaunchScreen.storyboard in Resources */,
+				3D0DA1CE1DB1930E00B74835 /* seattlesunset copy700.jpg in Resources */,
+				3D0DA1D81DB1930E00B74835 /* sandfootprints 700h.jpg in Resources */,
+				3D0DA1D61DB1930E00B74835 /* Walkabout-Tours152.png in Resources */,
+				3D0DA1D51DB1930E00B74835 /* Walkabout-Tours87.png in Resources */,
+				3D0DA1D91DB1930E00B74835 /* newyorkpin copy700h.jpg in Resources */,
+				3D0DA1D41DB1930E00B74835 /* Walkabout-Tours80.png in Resources */,
+				3D0DA1D71DB1930E00B74835 /* goldengatebridge copy700.jpg in Resources */,
+				3D0DA1D31DB1930E00B74835 /* Walkabout-Tours76.png in Resources */,
+				3D0DA1AF1DB1927C00B74835 /* CategoryTableViewCell.xib in Resources */,
+				3D0DA1B01DB1927C00B74835 /* POIDetailTableViewCell.xib in Resources */,
+				3D0DA1B21DB1927C00B74835 /* LocationTableViewCell.xib in Resources */,
 				3D2D01981DB18F6B00A550FA /* Assets.xcassets in Resources */,
-				3D2D01961DB18F6B00A550FA /* Main.storyboard in Resources */,
+				3D0DA1B11DB1927C00B74835 /* LaunchScreen.storyboard in Resources */,
+				3D0DA1AE1DB1927C00B74835 /* Main.storyboard in Resources */,
+				3D0DA1D01DB1930E00B74835 /* Walkabout-Tours40.png in Resources */,
+				3D0DA1D21DB1930E00B74835 /* Walkabout-Tours60.png in Resources */,
+				3D0DA1CF1DB1930E00B74835 /* Walkabout-Tours29.png in Resources */,
+				3D0DA1D11DB1930E00B74835 /* Walkabout-Tours58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +576,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2D01931DB18F6B00A550FA /* ViewController.m in Sources */,
-				3D2D01901DB18F6B00A550FA /* AppDelegate.m in Sources */,
+				3D0DA1A01DB191FE00B74835 /* TourListViewController.m in Sources */,
+				3D0DA21B1DB193F900B74835 /* CreateTourViewController.m in Sources */,
+				3D0DA2111DB193C900B74835 /* TourSelectionViewController.m in Sources */,
+				3D0DA2101DB193C900B74835 /* ParseResetPasswordViewController.m in Sources */,
+				3D0DA19E1DB191FE00B74835 /* MyExtension.m in Sources */,
+				3D0DA2231DB1942600B74835 /* POIDetailTableViewCell.m in Sources */,
+				3D0DA1A11DB191FE00B74835 /* TourDetailViewController.m in Sources */,
+				3D0DA20F1DB193C900B74835 /* ParseSignUpViewController.m in Sources */,
+				3D0DA19F1DB191FE00B74835 /* TourMapViewController.m in Sources */,
+				3D0DA1BB1DB192BE00B74835 /* SearchService.m in Sources */,
+				3D0DA1BC1DB192BE00B74835 /* FourSquareService.m in Sources */,
+				3D0DA21D1DB193F900B74835 /* CategoryTableViewCell.m in Sources */,
+				3D0DA21C1DB193F900B74835 /* CreateTourDetailViewController.m in Sources */,
+				3D0DA2121DB193C900B74835 /* CustomAnnotation.m in Sources */,
+				3D0DA1BD1DB192BE00B74835 /* Tour.m in Sources */,
 				3D2D018D1DB18F6B00A550FA /* main.m in Sources */,
+				3D0DA1C11DB192E600B74835 /* AppDelegate.m in Sources */,
+				3D0DA20D1DB193C900B74835 /* ParseService.m in Sources */,
+				3D2D01C31DB1900400A550FA /* VideoPlayerView.m in Sources */,
+				3D0DA1BE1DB192BE00B74835 /* Location.m in Sources */,
+				3D0DA20E1DB193C900B74835 /* ParseLoginViewController.m in Sources */,
+				3D0DA2221DB1942600B74835 /* LocationTableViewCell.m in Sources */,
+				3D0DA19D1DB191FE00B74835 /* FindToursViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +634,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D2D01941DB18F6B00A550FA /* Main.storyboard */ = {
+		3D0DA1A51DB1927C00B74835 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D2D01951DB18F6B00A550FA /* Base */,
+				3D0DA1A21DB1927C00B74835 /* Base */,
+				3D0DA1A31DB1927C00B74835 /* es-MX */,
+				3D0DA1A41DB1927C00B74835 /* pt-BR */,
 			);
 			name = Main.storyboard;
+			path = ../../WalkingTour/WalkingTours;
 			sourceTree = "<group>";
 		};
-		3D2D01991DB18F6B00A550FA /* LaunchScreen.storyboard */ = {
+		3D0DA1AB1DB1927C00B74835 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D2D019A1DB18F6B00A550FA /* Base */,
+				3D0DA1A81DB1927C00B74835 /* Base */,
+				3D0DA1A91DB1927C00B74835 /* es-MX */,
+				3D0DA1AA1DB1927C00B74835 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../../WalkingTour/WalkingTours;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,6 +842,7 @@
 				3D2D01B71DB18F6C00A550FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D2D01B81DB18F6C00A550FA /* Build configuration list for PBXNativeTarget "TourzTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +851,7 @@
 				3D2D01BA1DB18F6C00A550FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D2D01BB1DB18F6C00A550FA /* Build configuration list for PBXNativeTarget "TourzUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +860,7 @@
 				3D2D01BD1DB18F6C00A550FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
