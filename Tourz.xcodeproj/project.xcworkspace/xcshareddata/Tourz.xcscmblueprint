@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1A81C4FB1FA228C605261A0479CECCBE64EBBF5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B326C55C1BB2AFD848200A041C27F48D3FCB0409" : 9223372036854775807,
+    "1A81C4FB1FA228C605261A0479CECCBE64EBBF5D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "086A2FB5-4710-487D-9C39-51F473EF4E9A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B326C55C1BB2AFD848200A041C27F48D3FCB0409" : "WalkingTour\/",
+    "1A81C4FB1FA228C605261A0479CECCBE64EBBF5D" : "Tourz\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tourz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tourz.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cynthiasinclair\/Tourz.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A81C4FB1FA228C605261A0479CECCBE64EBBF5D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blueharp2\/WalkingTour.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B326C55C1BB2AFD848200A041C27F48D3FCB0409"
+    }
+  ]
+}

@@ -64,6 +64,7 @@
 		3D0DA21D1DB193F900B74835 /* CategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2191DB193F900B74835 /* CategoryTableViewCell.m */; };
 		3D0DA2221DB1942600B74835 /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA21F1DB1942600B74835 /* LocationTableViewCell.m */; };
 		3D0DA2231DB1942600B74835 /* POIDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2211DB1942600B74835 /* POIDetailTableViewCell.m */; };
+		3D0DA2251DB195A400B74835 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2241DB195A400B74835 /* Info.plist */; };
 		3D2D018D1DB18F6B00A550FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D018C1DB18F6B00A550FA /* main.m */; };
 		3D2D01981DB18F6B00A550FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D01971DB18F6B00A550FA /* Assets.xcassets */; };
 		3D2D01A61DB18F6B00A550FA /* TourzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D01A51DB18F6B00A550FA /* TourzTests.m */; };
@@ -171,10 +172,11 @@
 		3D0DA21F1DB1942600B74835 /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewCell.m; sourceTree = "<group>"; };
 		3D0DA2201DB1942600B74835 /* POIDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIDetailTableViewCell.h; sourceTree = "<group>"; };
 		3D0DA2211DB1942600B74835 /* POIDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIDetailTableViewCell.m; sourceTree = "<group>"; };
+		3D0DA2241DB195A400B74835 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D2D01881DB18F6B00A550FA /* Tourz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2D018C1DB18F6B00A550FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D2D01971DB18F6B00A550FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D2D019C1DB18F6B00A550FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2D019C1DB18F6B00A550FA /* Info1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info1.plist; sourceTree = "<group>"; };
 		3D2D01A11DB18F6B00A550FA /* TourzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2D01A51DB18F6B00A550FA /* TourzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TourzTests.m; sourceTree = "<group>"; };
 		3D2D01A71DB18F6B00A550FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -341,7 +343,8 @@
 				3D2D01C01DB18FEA00A550FA /* MODALS */,
 				3D2D01BE1DB18FC300A550FA /* CONTROLLER */,
 				3D2D01971DB18F6B00A550FA /* Assets.xcassets */,
-				3D2D019C1DB18F6B00A550FA /* Info.plist */,
+				3D0DA2241DB195A400B74835 /* Info.plist */,
+				3D2D019C1DB18F6B00A550FA /* Info1.plist */,
 			);
 			path = Tourz;
 			sourceTree = "<group>";
@@ -543,6 +546,7 @@
 				3D0DA1D71DB1930E00B74835 /* goldengatebridge copy700.jpg in Resources */,
 				3D0DA1D31DB1930E00B74835 /* Walkabout-Tours76.png in Resources */,
 				3D0DA1AF1DB1927C00B74835 /* CategoryTableViewCell.xib in Resources */,
+				3D0DA2251DB195A400B74835 /* Info.plist in Resources */,
 				3D0DA1B01DB1927C00B74835 /* POIDetailTableViewCell.xib in Resources */,
 				3D0DA1B21DB1927C00B74835 /* LocationTableViewCell.xib in Resources */,
 				3D2D01981DB18F6B00A550FA /* Assets.xcassets in Resources */,
